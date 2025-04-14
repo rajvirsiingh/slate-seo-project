@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta
+      name="description"
+      content="Discover delicious high-protein, low-sugar, and lactose-free recipes using Slate Milk. Try protein-packed shakes, keto-friendly desserts, and healthy post-workout snacks today!"
+    />
+    <title>
+      Delicious & Healthy Recipes with High-Protein, Low-Sugar, Lactose-Free
+      Milk
+    </title>
+    <style>
+      header {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+      }
+
+      .recipes-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+        padding: 2rem;
+      }
+
+      .recipe-card {
+        background: white;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+      }
+
+      .recipe-card:hover {
+        transform: scale(1.02);
+      }
+
+      .recipe-card img {
+        width: 100%;
+        height: 480px;
+        object-fit: cover;
+      }
+
+      .recipe-content {
+        padding: 1rem;
+      }
+
+      .recipe-title {
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+      }
+
+      .recipe-description {
+        font-size: 0.95rem;
+        margin-bottom: 1rem;
+        color: #555;
+      }
+
+      .view-button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        text-decoration: none;
+      }
+
+      .view-button:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">
+        <img
+          id="logo-nav"
+          src="/assets/Slate-Logo.png"
+          alt="Slate Milk Logo – High-Protein, Low-Sugar, Lactose-Free Milk and keto-friendly shakes"
+        />
+      </a>
+      <ul class="serif italic">
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="sustainability.html">Sustainability</a></li>
+        <li><a href="benifits.html">Benifits</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h1>Delicious Recipes with Slate Milk</h1>
+    </header>
+
+    <main class="recipes-container">
+      <!-- Recipe 1 -->
+      <div class="recipe-card">
+        <img
+          src="assets/layers-berry-chia-seed-smoothies-colorful-healthy.jpg"
+          alt="Slate’s unique high-protein, low-sugar, lactose-free Protein Smoothie"
+        />
+        <div class="recipe-content">
+          <div class="recipe-title">Chocolate Protein Smoothie</div>
+          <div class="recipe-description">
+            A creamy post-workout smoothie made with Slate Chocolate Milk,
+            banana, and peanut butter.
+          </div>
+          <a href="#" class="view-button">View Recipe</a>
+        </div>
+      </div>
+
+      <!-- Recipe 2 -->
+      <div class="recipe-card">
+        <img
+          src="assets/oatmeal-porridge-with-raspberries-blueberries-almonds-bowl-wooden-table.jpg"
+          alt="Slate’s unique high-protein, low-sugar, lactose-free Overnight Oats"
+        />
+        <div class="recipe-content">
+          <div class="recipe-title">Vanilla Overnight Oats</div>
+          <div class="recipe-description">
+            Combine oats, chia seeds, and Slate Vanilla Milk for a
+            protein-packed breakfast.
+          </div>
+          <a href="#" class="view-button">View Recipe</a>
+        </div>
+      </div>
+
+      <!-- Recipe 3 -->
+      <div class="recipe-card">
+        <img
+          src="assets/close-up-tasty-cappuccino-with-milk.jpg"
+          alt="Mocha Latte"
+        />
+        <div class="recipe-content">
+          <div class="recipe-title">Mocha Coffee Shake</div>
+          <div class="recipe-description">
+            Blend Slate Mocha Latte with ice and cold brew for a rich iced
+            coffee shake.
+          </div>
+          <a href="#" class="view-button">View Recipe</a>
+        </div>
+      </div>
+
+      <!-- Recipe 4 -->
+      <div class="recipe-card">
+        <img
+          src="assets/vertical-view-vegan-tofu-pancakes-with-fruits-white-plate.jpg"
+          alt="Slate’s unique high-protein, low-sugar, lactose-free Protein Pancakes"
+        />
+        <div class="recipe-content">
+          <div class="recipe-title">Chocolate Protein Pancakes</div>
+          <div class="recipe-description">
+            Swap milk with Slate Chocolate for fluffy, protein-rich pancakes.
+          </div>
+          <a href="#" class="view-button">View Recipe</a>
+        </div>
+      </div>
+    </main>
+    <footer style="background-color: #222; color: #fff; padding: 2rem 1rem">
+      <div
+        style="
+          max-width: 1100px;
+          margin: auto;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: center;
+          text-align: center;
+        "
+      >
+        <div style="flex: 1; min-width: 250px; margin-bottom: 1rem">
+          <h3 style="margin-bottom: 0.5rem">Slate Milk</h3>
+          <p style="font-size: 0.9rem; color: #bbb">
+            Stronger People, Stronger Planet.
+          </p>
+        </div>
+
+        <div style="flex: 1; min-width: 250px; margin-bottom: 1rem">
+          <h4>Quick Links</h4>
+          <ul style="list-style: none; padding: 0; margin: 0">
+            <li>
+              <a href="index.html" style="color: #ccc; text-decoration: none"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a href="shop.html" style="color: #ccc; text-decoration: none"
+                >Products</a
+              >
+            </li>
+            <li>
+              <a href="recipes.html" style="color: #ccc; text-decoration: none"
+                >Recipes</a
+              >
+            </li>
+            <li>
+              <a
+                href="sustainability.html"
+                style="color: #ccc; text-decoration: none"
+                >Sustainability</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div style="flex: 1; min-width: 250px; margin-bottom: 1rem">
+          <h4>Follow Us</h4>
+          <div style="margin-top: 0.5rem">
+            <a
+              href="#"
+              style="margin-right: 10px; color: #ccc; text-decoration: none"
+              >Instagram</a
+            >
+            <a
+              href="#"
+              style="margin-right: 10px; color: #ccc; text-decoration: none"
+              >Twitter</a
+            >
+            <a href="#" style="color: #ccc; text-decoration: none">Facebook</a>
+          </div>
+        </div>
+      </div>
+
+      <div
+        style="
+          text-align: center;
+          margin-top: 1.5rem;
+          font-size: 0.85rem;
+          color: #888;
+        "
+      >
+        © 2025 Slate Milk. All rights reserved.
+      </div>
+    </footer>
+  </body>
+</html>
